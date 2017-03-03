@@ -1,5 +1,5 @@
 <?php
-$title="information location providing system";
+$title="ILSP-final project";
 ?>
 <!DOCTYPE html>
 <html lang="en">
