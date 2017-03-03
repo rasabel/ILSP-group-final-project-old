@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/master/header.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,17 +14,17 @@ include 'header.php';
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-          <img src="image/natu-pension.jpg" alt="Image">
+          <img src="/ILSP-group-final-project/image/natu-pension.jpg" alt="Image">
         <div class="carousel-caption">
-         
-        </div>      
+
+        </div>
       </div>
 
       <div class="item">
-        <img src="image/natu-pension.jpg" alt="Image">
+        <img src="ILSP-group-final-project/image/natu-pension.jpg" alt="Image">
         <div class="carousel-caption">
-          
-        </div>      
+
+        </div>
       </div>
     </div>
 
@@ -38,9 +38,9 @@ include 'header.php';
       <span class="sr-only">Next</span>
     </a>
 </div>
-    
+
     <div class="container">
-             
+
       <!-- Container (advertasemant Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br>
@@ -69,8 +69,8 @@ include 'header.php';
     </div>
   </div>
 </div>
-  <br>  
-        
+  <br>
+
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
@@ -99,11 +99,12 @@ include 'header.php';
     </div>
   </div>
 </div>
-    </div> 
+    </div>
     </body>
-    
 
-<?php include 'footer.php'; ?>
+    <?php
+    include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/master/footer.php';
+    ?>
 
 
 </html>
